@@ -7,7 +7,6 @@ import {
   Dimensions
 } from 'react-native';
 import {
-  LineChart,
   BarChart
 } from 'react-native-chart-kit';
 
@@ -47,7 +46,7 @@ class App extends Component {
     return (
       <View style={styles.main}>
         <View style={styles.title}>
-          <Text style={styles.titleText}>Bully Counter</Text>
+          <Text style={styles.titleText}>Counter App</Text>
         </View>
         <View style={styles.scores}>
           <BarChart
